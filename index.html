@@ -325,12 +325,12 @@
           d[i] = {
             "district": i,
             "no_of_cases": values[i],
-            "tooltip": 'Affected cases:' + values[i]
+            "tooltip": 'Affected:' + values[i]
           }
         }
       }
       d['Andhra Pradesh']['no_of_cases'] = d['Andhra Pradesh']['no_of_cases'] + values['Telangana']
-      d['Andhra Pradesh']['tooltip'] = 'Affected cases AP: ' + values['Andhra Pradesh'] + ",\nAffected cases TS: " + values['Telangana']
+      d['Andhra Pradesh']['tooltip'] = 'Affected AP: ' + values['Andhra Pradesh'] + ",Affected TS: " + values['Telangana']
 
       var ab = [],
         cd = [],
