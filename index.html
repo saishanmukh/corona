@@ -216,10 +216,10 @@
                   <h6 class="m-0 font-weight-bold text-primary">Daily Report</h6>
                 </div>
                 <!-- Card Body -->
-                <div class="card-body">
+                <div class="card-body" >
                   
                   <div class="chart-pie pt-4 pb-2">
-                    <canvas id="myAreaChart"></canvas>
+                    <canvas id="myAreaChart" ></canvas>
                   </div>
                   </div>
                 </div>
@@ -333,7 +333,7 @@
         }
       }
       d['Andhra Pradesh']['no_of_cases'] = d['Andhra Pradesh']['no_of_cases'] + values['Telangana']
-      d['Andhra Pradesh']['tooltip'] = 'Affected cases AP: ' + values['Andhra Pradesh'] + ",Affected cases TS: " + values['Telangana']
+      d['Andhra Pradesh']['tooltip'] = 'Affected cases AP: ' + values['Andhra Pradesh'] + ",\nAffected cases TS: " + values['Telangana']
 
       var ab = [],
         cd = [],

@@ -36,7 +36,7 @@ var myLineChart = new Chart(ctx, {
   data: {
     labels: dataX,
     datasets: [{
-      label: "Earnings",
+      label: "people infected:",
       lineTension: 0.3,
       backgroundColor: "rgba(78, 115, 223, 0.05)",
       borderColor: "rgba(78, 115, 223, 1)",
@@ -103,8 +103,8 @@ var myLineChart = new Chart(ctx, {
       titleFontSize: 14,
       borderColor: '#dddfeb',
       borderWidth: 1,
-      xPadding: 15,
-      yPadding: 15,
+      xPadding: 10,
+      yPadding: 10,
       displayColors: false,
       intersect: false,
       mode: 'index',
